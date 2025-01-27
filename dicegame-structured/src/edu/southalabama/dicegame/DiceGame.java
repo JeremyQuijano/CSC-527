@@ -35,7 +35,7 @@ public class DiceGame {
 	
 	public static int rollDie(int sides) {
 		Random random = getRandomNumberGenerator();
-		int dieValue = random.nextInt(6) + 1;
+		int dieValue = random.nextInt(sides) + 1;
 		return dieValue;
 	}
 	
